@@ -14,7 +14,7 @@
           {%- if site.email -%}
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}
-          <p>Content submission webform coming soon!</p>
+          <li>Content submission webform coming soon!</li>
         </ul>
       </div>
 
@@ -23,7 +23,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <li class="p-name">{{- site.description | escape -}}</li>
+        <p>{{- site.description | escape -}}<p>
         <p><a href="{{- site.permalink_donate -}}">{{- site.donation_link_text -}}</a></p>
       </div>
     </div>
